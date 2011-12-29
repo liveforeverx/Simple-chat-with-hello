@@ -1,0 +1,8 @@
+*.beam
+/ebin/*.app
+/test-log/
+/request-logs/
+/doc/*
+!/doc/overview.edoc
+
+/tetrapak/.local.cache

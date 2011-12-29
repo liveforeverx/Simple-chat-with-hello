@@ -1,0 +1,7 @@
+{application, simple_chat_with_hello,
+  [{description, "SOCKJS Simple Chat Implementation with Cowboy as HTTP Server and Hello as JSON RPC"},
+   {applications, [kernel, stdlib, cowboy, hello]},
+   {vsn, "0"},
+   {mod, {simple_chat_with_hello, []}},
+   {env, []}
+]}.
